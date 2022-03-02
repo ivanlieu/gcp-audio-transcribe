@@ -14,7 +14,9 @@ The format to enter the .json file path in `gcp_json_path.txt` is `json_path='C:
 
 ## Required Packages
 Package versions listed were used to build the program on python 3.7. Differing versions should work, otherwise match package versions here.
-- docx 0.8.11
-- google-auth-1.33.0
-- google-cloud-speech 2.5.0
-- google-cloud-storage 1.41.1
+| Package | Version |
+| ------- | ------- |
+| docx | 0.8.11 |
+| google-auth | 1.33.0 |
+| google-cloud-speech | 2.5.0 |
+| google-cloud-storage | 1.41.1 |
