@@ -28,4 +28,4 @@ Package versions listed were used to build the program on python 3.7. Newer vers
   [gcp-storage]: <https://github.com/googleapis/python-storage>
   [speech-adapt]: <https://cloud.google.com/speech-to-text/docs/context-strength>
   [cloud-cli]: <https://cloud.google.com/sdk/docs/install-sdk>
-  [speech-adapt-boost]: <https://cloud.google.com/speech-to-text/docs/speech-adaptation#fine-tune_transcription_results_using_boost_beta]
+  [speech-adapt-boost]: <https://cloud.google.com/speech-to-text/docs/speech-adaptation#fine-tune_transcription_results_using_boost_beta]>
