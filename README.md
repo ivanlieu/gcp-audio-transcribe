@@ -16,7 +16,7 @@ The format to enter the .json file path in `gcp_json_path.txt` is `json_path='C:
 In the function `transcribeRequest()` in `transcribe_audio.py`, speech recognition can be enhanced in transcriptions by using [speech adaptation][speech-adapt]. This uses `SpeechContext()` and can be applied by uncommenting this section of code. 
 
 ## Required Packages
-Package versions listed were used to build the program on python 3.7. Newer versions should work, if not, match package versions here. Requires the Google Cloud CLI to be installed.
+Package versions listed were used to build the program on python 3.7. Newer versions should work, if not, match package versions here. Requires the [Google Cloud CLI][cloud-cli] to be installed.
 | Package | Version |
 | ------- | ------- |
 | [python-docx][pyDocx] | 0.8.11 |
@@ -27,3 +27,4 @@ Package versions listed were used to build the program on python 3.7. Newer vers
   [gcp-speech]: <https://github.com/googleapis/python-speech>
   [gcp-storage]: <https://github.com/googleapis/python-storage>
   [speech-adapt]: <https://cloud.google.com/speech-to-text/docs/context-strength>
+  [cloud-cli]: <https://cloud.google.com/sdk/docs/install-sdk>
