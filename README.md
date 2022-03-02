@@ -12,11 +12,18 @@ Set the file pathway of the GCP .json to interface with the GCP API. Optionally,
 
 The format to enter the .json file path in `gcp_json_path.txt` is `json_path='C:\Your\json\File\Path.json'`.
 
+## Optional Features to Enhance Speech Recognition
+In the function `transcribeRequest()` in `transcribe_audio.py`, speech recognition can be enhanced in transcriptions by using [speech adaptation][speech-adapt]. This uses `SpeechContext()` and can be applied by uncommenting this section of code. 
+
 ## Required Packages
-Package versions listed were used to build the program on python 3.7. Differing versions should work, otherwise match package versions here.
+Package versions listed were used to build the program on python 3.7. Newer versions should work, if not, match package versions here. Requires the Google Cloud CLI to be installed.
 | Package | Version |
 | ------- | ------- |
-| docx | 0.8.11 |
-| google-auth | 1.33.0 |
-| google-cloud-speech | 2.5.0 |
-| google-cloud-storage | 1.41.1 |
+| [python-docx][pyDocx] | 0.8.11 |
+| [google-cloud-speech][gcp-speech] | 2.5.0 |
+| [google-cloud-storage][gcp-storage] | 1.41.1 |
+
+  [pyDocx]: <https://python-docx.readthedocs.io/en/latest/>
+  [gcp-speech]: <https://github.com/googleapis/python-speech>
+  [gcp-storage]: <https://github.com/googleapis/python-storage>
+  [speech-adapt]: <https://cloud.google.com/speech-to-text/docs/context-strength>
