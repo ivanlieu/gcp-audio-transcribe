@@ -13,7 +13,7 @@ Set the file pathway of the GCP .json to interface with the GCP API. Optionally,
 The format to enter the .json file path in `gcp_json_path.txt` is `json_path='C:\Your\json\File\Path.json'`.
 
 ## Optional Features to Enhance Speech Recognition
-In the function `transcribeRequest()` in `transcribe_audio.py`, speech recognition can be enhanced in transcriptions by using [speech adaptation][speech-adapt]. This uses `speech.SpeechContext()` and can be applied by uncommenting this section of code. For further refinement of speech recognition accuracy, [speech adaptation boost][speech-adapt-boost] can be applied to an enabled speech adaptation speech request by uncommenting `speech_contexts = [speechContexts]` in `transcribe_audio.py` and assigning phrases and weights.
+In the function `transcribeRequest()` in `transcribe_audio.py`, speech recognition can be enhanced in transcriptions by using [speech adaptation][speech-adapt]. This uses `speech.SpeechContext()` and can be applied by uncommenting this section of code. For further refinement of speech recognition accuracy, [speech adaptation boost][speech-adapt-boost] can be applied to an enabled speech adaptation speech request by uncommenting `speech_contexts = [speechContexts]` in `transcribe_audio.py` and assigning phrases and weights. (Speech adaptation boost is a beta feature and requires beta access to use)
 
 ## Required Packages
 Package versions listed were used to build the program on python 3.7. Newer versions should work, if not, match package versions here. Requires the [Google Cloud CLI][cloud-sdk] to be installed.
